@@ -1,13 +1,14 @@
 {
   "name": "ember-cli-deploy-cloudinary",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An ember-cli-deploy plugin to upload to Cloudinary",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin"
   ],
-  "repository": "",
+  "repository": "https://github.com/unionups/ember-cli-deploy-cloudinary.git",
   "license": "MIT",
-  "author": "",
+  "author": "Sergey Nikolaev TheSoulsOfTheDevil team",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.13.0",
+    "ember-cli-deploy-plugin": "^0.2.9",
     "ember-cli-htmlbars": "^4.2.0"
   },
   "devDependencies": {
@@ -58,6 +60,7 @@
     "edition": "octane"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "before": "ember-cli-deploy-redis"
   }
 }
