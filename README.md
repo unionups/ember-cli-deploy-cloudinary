@@ -195,7 +195,7 @@ The list of built project files. This option should be relative to `distDir` and
 
 ### manifestPath
 
-The path to a manifest that specifies the list of files that are to be uploaded to S3.
+The path to a manifest that specifies the list of files that are to be uploaded to CDN.
 
 This manifest file will be used to work out which files don't exist on CDN and, therefore, which files should be uploaded. By default, this option will use the `manifestPath` property of the deployment context, provided by [ember-cli-deploy-manifest][4].
 
