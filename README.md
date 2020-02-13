@@ -1,7 +1,7 @@
 
 # ember-cli-deploy-cloudinary
 
-> An ember-cli-deploy plugin. Upload assets to Cloudinary.
+> An ember-cli-deploy plugin. Upload assets to [Cloudinary CDN][10].
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -12,7 +12,7 @@ Compatibility
 
 [![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 
-This plugin uploads one or more files to an Cloudynary CDN. It could be used to upload the assets (js, css, images etc) or indeed the application's index.html.
+This plugin uploads one or more files to an [Cloudinary CDN][10]. It could be used to upload the assets (js, css, images etc) or indeed the application's index.html.
 
 ## What is an ember-cli-deploy plugin?
 
@@ -273,3 +273,4 @@ Since this is a node-only ember-cli addon, this package does not include many fi
 [7]: https://cloudinary.com/documentation/advanced_url_delivery_options#multiple_sub_domains "Multiple sub-domains"
 [8]: https://cloudinary.com/documentation/upload_images#invalidating_cached_media_assets_on_the_cdn "Invalidating cached media assets on the CDN"
 [9]: https://cloudinary.com/documentation/image_upload_api_reference "Upload API reference"
+[10]: https://cloudinary.com "Cloudinary CDN"
